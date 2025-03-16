@@ -1,18 +1,22 @@
 {
-  "api": {
+  "api":[
+    {
     "type": "openapi",
-    "url": "https://raw.githubusercontent.com/GithuBarry/chat-plugin-search-engine/main/public/openapi.json",
+    "url": "https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json",
     "is_user_authenticated": false
-  },
+    }
+  ],
   "auth": {
     "type": "none"
   },
-  "contact_email": "33831597+GithuBarry@users.noreply.github.com",
-  "description_for_human": "Google search engine via Serper.dev free API (2500x🆓/month)",
-  "description_for_model": "Plugin for performing web searches using the Serper.dev API to access Google search results.",
-  "legal_info_url": "https://serper.dev/terms",
-  "logo_url": "https://serper.dev/favicon.ico",
-  "name_for_human": "Search Google via Serper",
-  "name_for_model": "search-engine-serper",
-  "schema_version": "v1"
+  "author": "Lwy",
+  "createdAt": "2025-03-16",
+  "identifier": "exa-search",
+  "meta": {
+    "avatar": "🚀",
+    "title": "Exa搜索",
+    "description": "使用Exa搜索互联网内容"
+  },
+  "version": "1",
+  "systemRole": "该插件能通过google搜索互联网内容，若用户无要求，建议设置keyword模式，返回结果数量25，且启用summary。"
 }
