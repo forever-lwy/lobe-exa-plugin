@@ -15,5 +15,7 @@
     "title": "Exa搜索",
     "description": "使用Exa搜索互联网内容"
   },
-  "version": "1"
+  "name_for_human": "Search Google via exa",
+  "name_for_model": "search-engine-exa",
+  "schema_version": "v1"
 }
