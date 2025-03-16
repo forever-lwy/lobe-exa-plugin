@@ -1,5 +1,4 @@
 {
-  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": {
     "type": "openapi",
     "url": "https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json",
