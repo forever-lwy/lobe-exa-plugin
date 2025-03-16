@@ -1,6 +1,5 @@
 {
-  openapi: "https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json",
-  "api":[],
+  openapi: 'https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json',
   "auth": {
     "type": "none"
   },
