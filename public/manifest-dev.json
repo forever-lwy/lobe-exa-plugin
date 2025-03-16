@@ -1,9 +1,6 @@
 {
-  "openapi": "https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json",
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
   "api": [],
-  "auth": {
-    "type": "none"
-  },
   "author": "Lwy",
   "createdAt": "2025-03-16",
   "identifier": "exa-search",
@@ -12,6 +9,7 @@
     "title": "Exa搜索",
     "description": "使用Exa搜索互联网内容"
   },
-  "version": "1",
-  "systemRole": "该插件能通过google搜索互联网内容，若用户无要求，建议设置keyword模式，返回结果数量25，且启用summary。"
+  "openapi": "https://raw.githubusercontent.com/forever-lwy/lobe-exa-plugin/refs/heads/main/public/openapi.json",
+  "systemRole": "该插件能通过google搜索互联网内容，若用户无要求，建议设置keyword模式，返回结果数量25，且启用summary。",
+  "version": "1"
 }
